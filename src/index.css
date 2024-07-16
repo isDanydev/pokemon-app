@@ -1,0 +1,19 @@
+.hero__banner {
+  background: linear-gradient(rgba(132, 131, 131, 0.2), rgba(0, 0, 0, 0.3));
+}
+
+.pokeball-button {
+  transition:
+    transform 0.1s,
+    box-shadow 0.1s;
+}
+
+.pokeball-button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.pokeball-button:active {
+  transform: scale(0.95);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
